@@ -5,7 +5,7 @@ import java.util.Date;
 
 public class Client {
 	
-	private static SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
+	private static SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 	
 	private String name;
 	private String email;
@@ -15,7 +15,7 @@ public class Client {
 		
 	}
 	
-	public Client(String name, String email, String bithDate) {
+	public Client(String name, String email, Date birthDate) {
 		this.name = name;
 		this.email = email;
 		this.birthDate = birthDate;
